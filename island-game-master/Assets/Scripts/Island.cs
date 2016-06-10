@@ -14,6 +14,7 @@ public class Island{
 	public int herb_rate;
 	public int carn_rate;
 
+
 	public Island(string name1, int herb_capacity1, int carn_capacity1, int num_herbivores1, int num_omnivores1, int num_carnivores1, string island_type1) {
         name = name1;
         herb_capacity = herb_capacity1;

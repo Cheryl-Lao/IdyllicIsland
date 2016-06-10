@@ -16,7 +16,7 @@ public class islandStats : MonoBehaviour
 
     void Start() {
 
-        timeToGo = Time.fixedTime + 1.0f;
+        timeToGo = Time.fixedTime + 1.5f;
 
         Animal bunny = new Animal("Bunny", "Herbivore", 2, 2, new List<string> {"Grass"}, new List<string> {"Bear"}, new List<int> {35, 65});
 		Animal bear = new Animal("Bear", "Carnivore", 1, 0, new List<string> {"Bunny"}, new List<string> { }, new List<int> {0, 0});
@@ -43,7 +43,7 @@ public class islandStats : MonoBehaviour
 
         float timeUsed = Time.time;
         if (Time.fixedTime >= timeToGo) {
-            timeToGo = Time.fixedTime + 1.0f;
+            timeToGo = Time.fixedTime + 1.5f;
             if (IslandGenerator.main_level.reset_state.beginning_points == IslandGenerator.main_level.points_to_next_level) {
                 winText.text = "Level Completed!";
 			} else if (IslandGenerator.main_level.reset_state.num_herbivores == 0) {

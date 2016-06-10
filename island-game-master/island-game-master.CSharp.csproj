@@ -71,6 +71,7 @@
   <ItemGroup>
     <Compile Include="Assets\Scripts\AddCarnivore.cs" />
     <Compile Include="Assets\Scripts\Animal.cs" />
+    <Compile Include="Assets\Scripts\InfoHover.cs" />
     <Compile Include="Assets\Scripts\Island.cs" />
     <Compile Include="Assets\Scripts\IslandGenerator.cs" />
     <Compile Include="Assets\Scripts\Level.cs" />
