@@ -1,0 +1,8 @@
+1My Island
+220
+32
+4100
+550
+622
+7Tropical
+8Level1Island
