@@ -77,6 +77,8 @@
     <Compile Include="Assets\Scripts\Level.cs" />
     <Compile Include="Assets\Scripts\RemoveCarnivore.cs" />
     <Compile Include="Assets\Scripts\islandStats.cs" />
+    <Compile Include="Assets\Scripts\main.cs" />
+    <Compile Include="Assets\Scripts\master.cs" />
     <Compile Include="Assets\Scripts\panelActive.cs" />
   </ItemGroup>
   <ItemGroup>

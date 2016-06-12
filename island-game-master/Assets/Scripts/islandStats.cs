@@ -34,7 +34,7 @@ public class islandStats : MonoBehaviour
 		winText.text = "";
 		islandInfo.text = IslandGenerator.main_level.reset_state.name.ToString();
         islandPop.text = "Herbivores: " + IslandGenerator.main_level.reset_state.num_herbivores + "/" + IslandGenerator.main_level.reset_state.herb_capacity + " | " + "Carnivores: " + IslandGenerator.main_level.reset_state.num_carnivores + "/" + IslandGenerator.main_level.reset_state.carn_capacity;
-        Experience.text = "Experience: " + IslandGenerator.main_level.reset_state.beginning_points.ToString() + "/" + IslandGenerator.main_level.points_to_next_level.ToString();
+        Experience.text = "Experience: " + IslandGenerator.main_level.reset_state.beginning_points+ "/" + IslandGenerator.main_level.points_to_next_level;
 		levelInfo.text = IslandGenerator.main_level.level_instructions;
     }
 
@@ -74,6 +74,6 @@ public class islandStats : MonoBehaviour
 				islandPop.text = "Herbivores: " + IslandGenerator.main_level.reset_state.num_herbivores.ToString() + "/" + IslandGenerator.main_level.reset_state.herb_capacity.ToString() + " | " + "Carnivores: " + IslandGenerator.main_level.reset_state.num_carnivores.ToString() + "/" + IslandGenerator.main_level.reset_state.carn_capacity.ToString();
             }
         }
-        Experience.text = "Experience: " + IslandGenerator.main_level.reset_state.beginning_points.ToString() + "/" + IslandGenerator.main_level.points_to_next_level.ToString();
+        Experience.text = "Experience: " + IslandGenerator.main_level.reset_state.beginning_points + "/" + IslandGenerator.main_level.points_to_next_level;
     }
 }
