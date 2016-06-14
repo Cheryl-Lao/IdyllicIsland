@@ -13,11 +13,6 @@ public class RemoveCarnivore : MonoBehaviour {
             master.level.island.popCarn -= 1;
         }
 
-        //GameObject[] carnSprites = GameObject.FindGameObjectsWithTag("Carnivore_Sprite");
-
-        //if (carnSprites.Length < 0) {
-        //    Destroy(carnSprites[0]);
-        //}
         if (0 <= (master.level.island.animals[name_tag].pop - 1))
         {
             master.level.island.animals[name_tag].pop -= 1;

@@ -194,4 +194,8 @@ public class main : MonoBehaviour
         currentPosition = new Vector3(UnityEngine.Random.Range((-x / 2), (x / 2)), UnityEngine.Random.Range((-y / 2) + 7, (y / 2) - 7), 0f);
         GameObject tmpObj = GameObject.Instantiate(spriteToDuplicate, currentPosition, Quaternion.identity) as GameObject;
     }
+    void RemoveAnimalSprite(string animal) {
+        
+        Destroy(GameObject.FindWithTag(animal));
+    }
 }
