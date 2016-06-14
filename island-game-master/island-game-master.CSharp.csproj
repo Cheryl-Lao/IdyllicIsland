@@ -80,7 +80,7 @@
     <None Include="Assets\Resources\Animal_Kingdom.txt" />
     <None Include="Assets\Resources\Levels\Level1.txt" />
     <None Include="Assets\Resources\Levels\Level1Island.txt" />
-    <None Include="Assets\Text\Tutorial.txt" />
+    <None Include="Assets\TextAssets\Tutorial.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2015\UnityVS.CSharp.targets" />
 </Project>

@@ -8,11 +8,15 @@ public class AddCarnivore : MonoBehaviour {
     public GameObject island_picture;
 
     public void Add_Carn() {
-        //DON'T WE NEED THE MAXIMUM CARN CAPACITY??? iT'S NOT IN THE NEW CODE
-		//if ((master.level.island.carn_capacity >= (master.level.island.popCarn + 1))) {
-            master.Level.island.popCarn += 1;
-		//}
-        
+
+		if ((master.level.popCaps[1] >= (master.level.island.popCarn + 1))) {
+            master.level.island.popCarn += 1;
+            master.level.initPops[spriteToDuplicate.name] += 1;
+        }
+        if ((master.level.popCaps[1]+ master.level.popCaps[0]) >= (master.level.island.animals[spriteToDuplicate.name].pop + 1))
+        {
+            master.level.island.animals[spriteToDuplicate.name].pop += 1;
+        }
 
         //Adding the sprite to the screen
         float x = island_picture.GetComponent<Renderer>().bounds.size.x;

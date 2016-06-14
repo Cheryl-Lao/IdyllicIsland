@@ -4,5 +4,5 @@ Tutorial Level
 100
 1,100
 100,50
-Vegetation,Bunny
+Bunny,Bear
 0,2
