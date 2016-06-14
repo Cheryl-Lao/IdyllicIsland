@@ -5,30 +5,30 @@ using System.Collections.Generic;
 
 public class master {
 
-	public class island {
+    public class Island {
 		
 		public int popHerb { get; set; } // Herbivore population
 		public int popCarn { get; set; } // Carnivore population
 		public int exp { get; set; } // Experience
 		public int incrRate { get; set; } // Herbivore increase rate
 		public int decrRate { get; set; } // Herbivore decrease rate
-		public Dictionary<string, animal> animals { get; set; } // Dictionary of all animals
+		public Dictionary<string, Animal> animals { get; set; } // Dictionary of all animals
 
-		public island () {
+		public Island () {
 			popHerb = 0;
 			popCarn = 0;
 			exp = 0;
 			incrRate = 0;
 			decrRate = 0;
 			// TODO
-			animals = new Dictionary<string, animal> {};
+			animals = new Dictionary<string, Animal> {};
 			// TODO
 		}
 	}
 
-	public class level {
+	public class Level {
 		
-		public static island island { get; set; } // Island
+		public static Island island { get; set; } // Island
 		public static string name { get; set; } // Name of level
 		public static string info { get; set; } // Information of level
 		public static int incrRatio { get; set; } // Herbivore 
@@ -37,7 +37,7 @@ public class master {
 		public static int[] popCaps { get; set; } // Population caps
 		public static Dictionary<string, int> initPops { get; set; } // Initial populations of island
 
-		public level (island _island, string _name, string _info, int _incrRatio, int _expNeeded, int[] _popNeeded, int[] _popCaps, Dictionary<string, int> _initPops) {
+		public Level (Island _island, string _name, string _info, int _incrRatio, int _expNeeded, int[] _popNeeded, int[] _popCaps, Dictionary<string, int> _initPops) {
 			island = _island;
 			name = _name;
 			info = _info;
@@ -49,7 +49,7 @@ public class master {
 		}
 	}
 	
-	public class animal {
+	public class Animal {
 		
 		public string name { get; set; } // Name of animal
 		public string sciName { get; set; } // Scientific name of animal
@@ -59,7 +59,7 @@ public class master {
 		public string[] prey { get; set; } // List of the prey for animal
 		public string[] pred { get; set; } // List of the predators for animal
 
-		public animal (string _name, string _sciName, string _type, int _rate, int _pop, string[] _prey, string[] _pred) {
+		public Animal(string _name, string _sciName, string _type, int _rate, int _pop, string[] _prey, string[] _pred) {
 			name = _name;
 			sciName = _sciName;
 			type = _type;

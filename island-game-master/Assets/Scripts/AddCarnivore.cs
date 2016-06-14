@@ -7,10 +7,11 @@ public class AddCarnivore : MonoBehaviour {
     public GameObject spriteToDuplicate;
     public GameObject island_picture;
 
-    void Add_Carn() {
-		if ((IslandGenerator.main_level.reset_state.carn_capacity >= (IslandGenerator.main_level.reset_state.num_carnivores + 1))) {
-			IslandGenerator.main_level.reset_state.num_carnivores += 1;
-		}
+    public void Add_Carn() {
+        //DON'T WE NEED THE MAXIMUM CARN CAPACITY??? iT'S NOT IN THE NEW CODE
+		//if ((master.level.island.carn_capacity >= (master.level.island.popCarn + 1))) {
+            master.Level.island.popCarn += 1;
+		//}
         
 
         //Adding the sprite to the screen

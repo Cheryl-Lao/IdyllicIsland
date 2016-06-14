@@ -70,13 +70,8 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\AddCarnivore.cs" />
-    <Compile Include="Assets\Scripts\Animal.cs" />
     <Compile Include="Assets\Scripts\InfoHover.cs" />
-    <Compile Include="Assets\Scripts\Island.cs" />
-    <Compile Include="Assets\Scripts\IslandGenerator.cs" />
-    <Compile Include="Assets\Scripts\Level.cs" />
     <Compile Include="Assets\Scripts\RemoveCarnivore.cs" />
-    <Compile Include="Assets\Scripts\islandStats.cs" />
     <Compile Include="Assets\Scripts\main.cs" />
     <Compile Include="Assets\Scripts\master.cs" />
     <Compile Include="Assets\Scripts\panelActive.cs" />
@@ -85,6 +80,7 @@
     <None Include="Assets\Resources\Animal_Kingdom.txt" />
     <None Include="Assets\Resources\Levels\Level1.txt" />
     <None Include="Assets\Resources\Levels\Level1Island.txt" />
+    <None Include="Assets\Text\Tutorial.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\SyntaxTree\UnityVS\2015\UnityVS.CSharp.targets" />
 </Project>
