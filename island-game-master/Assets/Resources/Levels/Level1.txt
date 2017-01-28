@@ -1,3 +1,0 @@
-1This is the tutorial level! Try to keep your animal populations in the right ratio. If you see too many herbivores, add some more carnivores.
-21000
-3Level1Island

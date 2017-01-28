@@ -1,0 +1,8 @@
+5
+Keep the Herbivore population in between 20 and 80. Watch out, invasive species cause wild popuation unbalances!
+100
+20,80
+100,50
+Deer,Fox,Hedgehog,Pony,Rabbit,Wolf
+2,0,2,2,2,0
+Buffalo only live on open plains and prairies.|Biodiversity has steadily gone down in the past 35 years.|Coral reefs have the most diversity of all ecosystems.|Areas near the equator tend to be more biodiverse.|Fecundity describes the rate at which an animal reproduces.|About .1% of species are lost each year.|Overfishing has reduced some fish stocks by more than 90%.|Across Europe, 42% of mammal species are threatened.|“Endemic” means native to a certain area.|Invasive species have few or no predators and will often destroy ecosystems.

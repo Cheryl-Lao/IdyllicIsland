@@ -1,0 +1,18 @@
+﻿using UnityEngine;
+using System.Collections;
+
+public class FoxHover : MonoBehaviour {
+    public GameObject previousArrow;
+    public GameObject newArrow;
+    
+    public void done()
+    {
+        if (TutorialManager.hovered == true && TutorialManager.foxHover == false && TutorialManager.rabbitHover == false && TutorialManager.expBarBool == false && TutorialManager.herbBarBool == false && TutorialManager.carnBarBool == false && TutorialManager.addCarn == false && TutorialManager.removeCarn == false)
+        { 
+            TutorialManager.foxHover = true;
+            previousArrow.SetActive(false);
+            newArrow.SetActive(true);
+            
+        }
+    }
+}

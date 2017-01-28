@@ -1,0 +1,7 @@
+0
+Keep the Herbivore population in between 5 and 95
+100
+5,95
+100,50
+Fox,Rabbit
+0,2
